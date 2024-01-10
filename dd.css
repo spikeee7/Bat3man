@@ -1,0 +1,14 @@
+*{
+    margin: 20px;
+    padding: 70px;
+    box-sizing: border-box;
+    }
+    video{
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: black;
+}

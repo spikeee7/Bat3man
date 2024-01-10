@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "segoe UI", sans-serif;
+}
+body {
+    background-image: url(backround\ sfer.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    flex: auto;
+    font-size: 20px;
+    color: black;
+    position: relative;
+    padding: 20px 50px 0 50px;
+    margin-bottom: 200px;
+}
+ul , li{
+    list-style-type: none;
+    padding: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin-right: 50px;
+}
+.banner{
+    margin-top: 100px;
+    width: 65%;
+}
+h1{
+    font-size: 50px;
+    font-family: "Babas Neue";
+    margin-bottom: 40px;
+}
+p{
+    margin-bottom: 40px;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 40px;
+    background-color: transparent;
+}
+.logo{
+    width: 50px;
+    height: 10%;
+}
+section{
+    height: 80%;
+    width: 100%;
+    background-color: bisque;
+}
+#bg{
+    height: 350px;
+    width: 260px;
+}
+.sec .row2{
+    position: absolute;
+    top: 88px;
+    height: 200px;
+    width: 82%;
+}
+.sec.row2.col2{
+    width: 810px;
+    float: left;
+    margin-right: 70px;
+}
+.sec.row2.col2{
+    text-decoration:underline;
+}
+#Rob{
+    height: 80px;;
+    width: 80px;
+}
+.sec .row3{
+    position: absolute;
+    top: 288px;
+    height: 200px;
+    width: 82%;
+}
+.sec .row3 h2{
+    color: #fff;
+    font: size 20px;;
+}
+.row3 .col{
+    width: 240px;
+    display: flex;
+    float: left;
+    align-items: center;
+    height: 120px;
+    margin-right: 47px;
+}
+.row3 .c1{
+    width: 100px;
+    float: left;
+    margin-right: 0px;
+    line-height: 20px;
+}
+.sec .row3 .col:last-child{
+    margin: 0px;
+}
+.row3 .c1 h5{
+    color: ghostwhite;
+}
+.row3 .c1 h6{
+    color: rgb(152, 152, 153);
+}
